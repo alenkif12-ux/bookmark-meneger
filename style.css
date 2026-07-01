@@ -62,6 +62,14 @@ input::placeholder {
 main {
     grid-area: main;
     background-color: #E8F0EF;
+    padding: 36px 32px;
+}
+
+.main_title {
+    font-size: 24px;
+    color: #051513;
+    font-weight: bold;
+    margin-bottom: 24px;
 }
 
 .bookmarks {
@@ -92,7 +100,7 @@ main {
 }
 
 .bookmark_logo {
-    weidth: 44px;
+    width: 44px;
     height: 44px;
     border-radius: 8px;
     border: 1px solid #E8F0EF;
@@ -103,7 +111,7 @@ main {
     color: #051513;
     font-weight: bold;
     line-height: 1.2;
-    margine-bottom: 4px;
+    margin-bottom: 4px;
 }
 
 .bookmark_link {
@@ -163,3 +171,9 @@ main {
     grid-area: sidebar;
 }
 
+.sidebar_header-title {
+    font-size: 20px;
+    color: #051513;
+    font-weight: bold;
+    margin: 26px 0 16px 60px;
+}
