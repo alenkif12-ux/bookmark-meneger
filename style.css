@@ -53,7 +53,7 @@ input::placeholder {
     padding: 16.5px 32px;
 }
 
-.topbar_actions {
+.topbar__actions {
     display: flex;
     align-items: center;
     gap: 16px;
@@ -65,7 +65,7 @@ main {
     padding: 36px 32px;
 }
 
-.main_title {
+.main__title {
     font-size: 24px;
     color: #051513;
     font-weight: bold;
@@ -83,7 +83,7 @@ main {
     background-color: #ffffff;
 }
 
-.bookmark_header {
+.bookmark__header {
     display: flex;
     align-items: start;
     justify-content: space-between;
@@ -92,21 +92,21 @@ main {
     border-bottom: 1px solid #DDE9E7;
 }
 
-.bookmark_content {
+.bookmark__content {
     display: flex;
     justify-content: space-between;
     align-items: start;
     gap: 12px;
 }
 
-.bookmark_logo {
+.bookmark__logo {
     width: 44px;
     height: 44px;
     border-radius: 8px;
     border: 1px solid #E8F0EF;
 }
 
-.bookmark_title {
+.bookmark__title {
     font-size: 20px;
     color: #051513;
     font-weight: bold;
@@ -114,12 +114,12 @@ main {
     margin-bottom: 4px;
 }
 
-.bookmark_link {
+.bookmark__link {
     font-size: 12px;
     color: #4C5C59;
 }
 
-.bookmark_body {
+.bookmark__body {
     padding: 16px;
     display: flex;
     flex-direction: column;
@@ -129,13 +129,13 @@ main {
     border-bottom: 1px solid #DDE9E7;
 }
 
-.bookmark_desc {
+.bookmark__desc {
     font-size: 14px;
     color: #4C5C59;
     line-height: 1.5;
 }
 
-.bookmark_tags {
+.bookmark__tagslist {
     display: flex;
     gap: 8px;
     flex-wrap: wrap;
@@ -143,7 +143,7 @@ main {
     justify-content: space-between;
 }
 
-.tag {
+.bookmark__tag {
     padding: 4px 8px;
     background-color: #E8F0EF;
     color: #4C5C59;
@@ -151,7 +151,7 @@ main {
     border-radius: 4px;
 }
 
-.bookmark_footer {
+.bookmark__footer-list {
     display: flex;
     justify-content: start;
     align-items: start;
@@ -159,7 +159,7 @@ main {
     padding: 12px 16px;
 }
 
-.footer_item {
+.bookmark__footer-item {
     display: flex;
     align-items: start;
     gap: 6px;
@@ -171,7 +171,7 @@ main {
     grid-area: sidebar;
 }
 
-.sidebar_header-title {
+.sidebar__header-title {
     font-size: 20px;
     color: #051513;
     font-weight: bold;
